@@ -11,7 +11,7 @@ var helpers = require('./helpers');
 
 describe('project framework', function() {
   // oddly, sails must be run first or there is an error
-  testFramework('sails');
+  // testFramework('sails');
   var frameworks = Object.keys(project.frameworks);
   for (var i = 0; i < frameworks.length; i++) {
     if (frameworks[i] !== 'sails') testFramework(frameworks[i]);
