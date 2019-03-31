@@ -1,7 +1,4 @@
-
-
-
-## Welcome to Swagger!
+# Welcome to Swagger!
 
 ![alt text](./images/swagger-icon.png)
 

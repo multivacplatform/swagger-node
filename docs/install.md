@@ -22,7 +22,7 @@ Here's how you install with `sudo`. If you do not wish to use `sudo`, see [Using
 1. Open a terminal. 
 2. Run the install:
 
-    `sudo npm install -g swagger`
+    `sudo npm install -g swagger-node`
 
 **Note**: `sudo` may or may not be required with the `-g` option depending on your configuration. If you do not use `-g`, you may need to add the `swagger/bin` directory to your PATH manually. On Unix-based machines 
 the bin directory will often be found here: `/usr/local/lib/node_modules/swagger/bin`.
@@ -32,7 +32,7 @@ the bin directory will often be found here: `/usr/local/lib/node_modules/swagger
 1. Open a terminal.
 2. Run the install:
 
-    `npm install -g swagger`
+    `npm install -g swagger-node`
 
 ## <a name="nosudo"></a>Using npm without sudo
 
