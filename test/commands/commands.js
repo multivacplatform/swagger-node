@@ -21,6 +21,8 @@ var proxyquire =  require('proxyquire').noPreserveCache();
 var sinon = require('sinon');
 
 describe('commands', function() {
+  this.timeout(180000);
+  
   var commands;
   var converterSpy = sinon.spy();
   var specSpy = sinon.stub().callsArg(2);
