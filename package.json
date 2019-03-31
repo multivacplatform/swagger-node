@@ -46,8 +46,8 @@
     "z-schema": "3.25.1"
   },
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha -u bdd -R spec test/config.js test/util test/commands test/commands/project test/project-skeletons",
-    "coverage": "istanbul cover ./node_modules/mocha/bin/mocha -u bdd -- -R spec test/config.js test/util test/commands test/commands/project test/project-skeletons",
+    "test": "./node_modules/.bin/_mocha --exit -u bdd -R spec test/config.js test/util test/commands test/commands/project test/project-skeletons",
+    "coverage": "istanbul cover ./node_modules/.bin/_mocha -u bdd -- -R spec test/config.js test/util test/commands test/commands/project test/project-skeletons",
     "start": "node app.js"
   },
   "bin": {
