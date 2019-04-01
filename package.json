@@ -1,6 +1,6 @@
 {
   "name": "swagger-node",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "The Swagger command-line. Provides Swagger utilities and project lifecycle support.",
   "keywords": [
     "swagger",
@@ -47,7 +47,7 @@
   },
   "scripts": {
     "test": "./node_modules/.bin/_mocha --exit -u bdd -R spec test/config.js test/util test/commands test/commands/project test/project-skeletons",
-    "coverage": "istanbul cover ./node_modules/.bin/_mocha -u bdd -- -R spec test/config.js test/util test/commands test/commands/project test/project-skeletons",
+    "coverage": "istanbul cover ./node_modules/.bin/_mocha --exit -u bdd -R spec test/config.js test/util test/commands test/commands/project test/project-skeletons",
     "start": "node app.js"
   },
   "bin": {
