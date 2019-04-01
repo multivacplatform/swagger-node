@@ -1,7 +1,7 @@
 # swagger-node
 
 [![Build Status](https://travis-ci.org/multivacplatform/swagger-node.svg?branch=master)](https://travis-ci.org/multivacplatform/swagger-node)
-[![NPM version](https://badge.fury.io/js/swagger.png)](http://badge.fury.io/js/swagger)
+[![NPM version](https://badge.fury.io/js/swagger-node.svg)](http://badge.fury.io/js/swagger-node)
 [![Dependency Status](https://david-dm.org/multivacplatform/swagger-node/status.svg)](https://david-dm.org/multivacplatform/swagger-node)
 [![devDependency Status](https://david-dm.org/multivacplatform/swagger-node/dev-status.svg)](https://david-dm.org/multivacplatform/swagger-node#info=devDependencies)
 
