@@ -1,6 +1,6 @@
 {
   "name": "swagger-node",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "description": "The Swagger command-line. Provides Swagger utilities and project lifecycle support.",
   "keywords": [
     "swagger",
@@ -9,7 +9,10 @@
     "connect",
     "express"
   ],
-  "author": "Scott Ganyo <sganyo@apigee.com>",
+  "contributors": [
+    "Scott Ganyo <sganyo@apigee.com>",
+    "Maziyar Panahi <maziyar.panahi@iscpif.fr>"
+  ],
   "license": "Apache 2.0",
   "preferGlobal": true,
   "main": "index.js",
@@ -18,21 +21,21 @@
     "url": "https://github.com/multivacplatform/swagger-node.git"
   },
   "dependencies": {
-    "async": "^2.6.2",
-    "commander": "^2.19.0",
+    "async": "^3.1.0",
+    "commander": "3.0.1",
     "connect": "^3.6.6",
     "debug": "^4.1.1",
-    "fs-extra": "^1.0.0",
-    "inquirer": "^6.2.2",
+    "fs-extra": "8.1.0",
+    "inquirer": "7.0.0",
     "js-yaml": "^3.13.0",
     "lodash": "^4.17.11",
     "mocha": "^6.0.2",
-    "nodemon": "^1.18.10",
+    "nodemon": "^1.19.2",
     "serve-static": "^1.13.2",
-    "swagger-converter": "^1.5.1",
-    "swagger-editor": "^3.6.27",
-    "swagger-test-templates": "^1.5.1",
-    "swagger-tools": "^0.10.4"
+    "swagger-converter": "1.5.1",
+    "swagger-editor": "~3.6.35",
+    "swagger-test-templates": "1.5.1",
+    "swagger-tools": "0.10.4"
   },
   "devDependencies": {
     "chai": "^4.2.0",
