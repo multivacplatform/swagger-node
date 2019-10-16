@@ -28,8 +28,7 @@
     "fs-extra": "8.1.0",
     "inquirer": "7.0.0",
     "js-yaml": "^3.13.0",
-    "lodash": "^4.17.11",
-    "mocha": "^6.0.2",
+    "lodash": "~4.17.11",
     "nodemon": "^1.19.2",
     "serve-static": "^1.13.2",
     "swagger-converter": "1.5.1",
@@ -39,6 +38,7 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
+    "mocha": "^6.0.2",
     "mock-stdin": "^0.3.1",
     "proxyquire": "^2.1.0",
     "should": "^13.2.3",
