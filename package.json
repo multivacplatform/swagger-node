@@ -33,7 +33,7 @@
     "serve-static": "^1.13.2",
     "swagger-converter": "1.5.1",
     "swagger-editor": "~3.6.35",
-    "swagger-test-templates": "1.5.1",
+    "swagger-test-templates": "1.6.0",
     "swagger-tools": "0.10.4"
   },
   "devDependencies": {
