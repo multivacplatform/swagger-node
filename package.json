@@ -1,6 +1,6 @@
 {
   "name": "swagger-node",
-  "version": "0.8.3",
+  "version": "0.8.4",
   "description": "The Swagger command-line. Provides Swagger utilities and project lifecycle support.",
   "keywords": [
     "swagger",
